@@ -4,7 +4,7 @@ file <- "household_power_consumption.txt"
 # Reads the text file
 data= read.csv(file , header=TRUE, sep=";", stringsAsFactors=FALSE, 
 		na.strings="?",
-            colClasses=c("character", "character", "numeric",
+            	colClasses=c("character", "character", "numeric",
                          "numeric", "numeric", "numeric",
                          "numeric", "numeric", "numeric"))
 
